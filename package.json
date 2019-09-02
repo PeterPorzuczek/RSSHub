@@ -4,7 +4,7 @@
   "description": "Make RSS Great Again!",
   "main": "lib/index.js",
   "scripts": {
-    "start": "pm2 lib/index.js",
+    "start": "node lib/index.js",
     "dev": "cross-env NODE_ENV=dev nodemon --inspect lib/index.js",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
@@ -82,7 +82,6 @@
     "path-to-regexp": "3.1.0",
     "pidusage": "2.0.17",
     "plist": "3.0.1",
-    "pm2": "^3.5.1",
     "puppeteer": "1.19.0",
     "query-string": "6.8.3",
     "redis": "2.8.0",
